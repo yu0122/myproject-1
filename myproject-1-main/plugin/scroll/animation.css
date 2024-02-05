@@ -1,0 +1,71 @@
+.ani {
+  transition-duration: 1s;
+}
+
+/* delay ---------------------- */
+
+.ani-delay-short {
+  transition-delay: 0s;
+}
+
+.ani-delay-medium {
+  transition-delay: .5s;
+}
+
+.ani-delay-long {
+  transition-delay: 1s;
+}
+
+.ani-delay-longer {
+  transition-delay: 1.5s;
+}
+
+/* type: fade --------------------- */
+
+.ani-fadeIn {
+  opacity: 0;
+}
+
+.ani-fadeIn-active {
+  opacity: 1;
+}
+
+/* type: move ---------------------------- */
+
+.ani-move-left {
+  transform: translateX(50px);
+}
+
+.ani-move-right {
+  transform: translateX(-50px);
+}
+
+.ani-move-up {
+  transform: translateY(50px);
+}
+
+.ani-move-down {
+  transform: translateY(-50px);
+}
+
+.ani-move-active {
+  transform: translate(0);
+}
+
+/* type: scale --------------------------- */
+
+.ani-zoom-in {
+  transform: scale(0);
+}
+
+.ani-zoom-in-active {
+  transform: scale(1);
+}
+
+.ani-zoom-out {
+  transform: scale(5);
+}
+
+.ani-zoom-out-active {
+  transform: scale(1);
+}
