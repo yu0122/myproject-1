@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body{
+    background-color: #f6f6f6;
+}
+
+/* ---main--- */
+.main{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main-head, .main-body{
+    padding: 1rem;
+}
+
+.main-cht{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.main-small{
+    text-transform: uppercase;
+    font-style: italic;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.main-desc{
+    margin-top: 1rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, .7);
+    text-align: justify;
+}
+
+/* ---grid--- */
+
+.grid{
+    display: grid;
+    gap: 2rem;
+}
+
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4{
+    grid-template-columns: repeat(4, 1fr);
+}
+
