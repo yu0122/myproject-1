@@ -209,3 +209,74 @@ display: block;
 .build-li-3{
     background-color: #cf7688;
 }
+
+/* ---animation--- */
+
+.ani-move-downToUp{
+    transform: translateY(120%);
+    animation-name: moveDownToUp;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveDownToUp{
+    to{
+        transform: translateY(0);
+    }
+}
+
+.ani-move-leftToRight{
+    transform: translate(-100%);
+    opacity: 0;
+    animation-name: moveLeftToRight;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveLeftToRight{
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.ani-fade-in{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+.ani-delay-1{
+    animation-delay: .3s;
+}
+
+.ani-delay-2{
+    animation-delay: .6s;
+}
+
+.ani-delay-3{
+    animation-delay: .9s;
+}
+
+.ani-delay-4{
+    animation-delay: 1s;
+}
+
+.ani-delay-5{
+    animation-delay: 1.2s;
+}
+
+.ani-delay-6{
+    animation-delay: 1.3s;
+}
+
+.ani-delay-7{
+    animation-delay: 1.4s;
+}
