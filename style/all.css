@@ -362,21 +362,44 @@ img {
 
     /* ---banner--- */
 
+    .banner{
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+
     .banner-container{
         flex-direction: column;
     }
 
     .banner-index .banner-head,
-    .banner-index .banner-body{
+    .banner-index .banner-body,
+    .banner-head, .banner-body{
         width: 100%;
+        box-sizing: border-box;
     }
 
     .banner-head{
         text-align: center;
     }
 
+    .banner-index .banner-head,
+    .banner-head{
+        padding: 5rem 1rem 1rem;
+    }
+
+    .banner-index .banner-body,
+    .banner-body{
+        padding-top: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .banner-title{
         font-size: 7vw;
+    }
+
+    .banner-title-line::after{
+        left: 50%;
+        margin-left: -1.5rem;
     }
 
     .banner-small{
@@ -396,4 +419,28 @@ img {
         width: 40vw;
         bottom: 2.5rem;
     }
+
+    .banner-ul{
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .aside{
+        display: none;
+    }
+
+    .footer{
+        padding-top: 1rem;
+        clip-path: none;
+    }
+
+.footer-head{
+    width: 100%;
+    text-align: center;
+}
+
+    .footer-body{
+        display: none;
+    }
+
 }

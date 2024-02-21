@@ -48,3 +48,15 @@ body{
     grid-template-columns: repeat(4, 1fr);
 }
 
+/* ---RWD--- */
+
+@media screen and (max-width:480px){
+
+    .grid-3, .grid-4{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-title{
+        text-align: center;
+    }
+}

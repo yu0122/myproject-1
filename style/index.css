@@ -280,3 +280,39 @@ display: block;
 .ani-delay-7{
     animation-delay: 1.4s;
 }
+
+/* ---RWD---- */
+
+@media screen and (max-width:480px){
+    /* ---service--- */
+    .service-items{
+        flex-direction: column;
+    }
+
+    .service-item{
+        width: auto;
+    }
+
+    /* ---project--- */
+    .project-item{
+        width: 33.3333%;
+    }
+
+    /* ---intro--- */
+    .base-intro {
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+    }
+
+    .base-intro .base-head{
+        text-align: center;
+    }
+
+    .base-intro .base-btns{
+        text-align: center;
+    }
+
+    /* ---build--- */
+    .base-build .base-body{
+        max-width: 80vw;
+    }
+}
